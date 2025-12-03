@@ -1,0 +1,86 @@
+TRAIN:
+
+#   # Mosmed
+#   train_batch_size: 32
+#   lr: 0.0005
+
+  # Covid19 and Kvaisir
+  train_batch_size: 32
+  lr: 0.0003
+
+  # # Monuseg
+  # train_batch_size: 2
+  # lr: 0.001 # 0.0003
+
+
+
+  valid_batch_size: 8
+
+  image_size: [224,224]
+
+  min_epochs: 20
+  max_epochs: 200
+  patience: 20
+
+  device: 1
+
+  model_save_path: RESULTS
+  model_save_filename: UA-VLS
+
+MODEL:
+  bert_type: microsoft/BiomedVLP-CXR-BERT-specialized
+  vision_type: facebook/convnext-tiny-224
+  project_dim: 768
+
+
+# Covid19 kvasir_polyp MoNuSeg MosMed
+# DATA:
+#   data_name: kvasir_polyp
+#   train_csv_path: datasets/kvasir_polyp/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/kvasir_polyp/Train_Folder/
+#   test_csv_path: datasets/kvasir_polyp/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/kvasir_polyp/Test_Folder/
+
+DATA:
+  data_name: Covid19
+  train_csv_path: datasets/Covid19/Train_Folder/Train_text.xlsx
+  train_root_path: datasets/Covid19/Train_Folder/
+  test_csv_path: datasets/Covid19/Test_Folder/Test_text.xlsx
+  test_root_path: datasets/Covid19/Test_Folder/
+
+# DATA:
+#   data_name: MoNuSeg
+#   train_csv_path: datasets/MoNuSeg/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/MoNuSeg/Train_Folder/
+#   test_csv_path: datasets/MoNuSeg/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/MoNuSeg/Test_Folder/
+
+# DATA:
+#   data_name: ClinicDB
+#   train_csv_path: datasets/clinicdb_polyp/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/clinicdb_polyp/Train_Folder/
+#   test_csv_path: datasets/clinicdb_polyp/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/clinicdb_polyp/Test_Folder/
+
+
+# DATA:
+#   data_name: BKAI
+#   train_csv_path: datasets/bkai_polyp/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/bkai_polyp/Train_Folder/
+#   test_csv_path: datasets/bkai_polyp/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/bkai_polyp/Test_Folder/
+
+
+# DATA:
+#   data_name: BUSI
+#   train_csv_path: datasets/busi/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/busi/Train_Folder/
+#   test_csv_path: datasets/busi/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/busi/Test_Folder/
+
+# DATA:
+#   data_name: MosMed
+#   train_csv_path: datasets/MosMed/Train_Folder/Train_text.xlsx
+#   train_root_path: datasets/MosMed/Train_Folder/
+#   test_csv_path: datasets/MosMed/Test_Folder/Test_text.xlsx
+#   test_root_path: datasets/MosMed/Test_Folder/

@@ -1,0 +1,37 @@
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# PyTorch Lightning
+pytorch-lightning>=2.0.0
+
+# Metrics and Evaluation
+torchmetrics>=0.11.0
+
+# NLP and Vision Models
+transformers>=4.30.0
+
+# Medical Image Processing
+monai>=1.2.0
+
+# Data Processing
+pandas>=1.5.0
+openpyxl>=3.10.0
+numpy>=1.23.0
+scipy>=1.10.0
+
+# Image Processing
+Pillow>=9.5.0
+
+# Configuration
+PyYAML>=6.0
+
+# Efficient Operations
+einops>=0.7.0
+
+# State Space Models (Mamba)
+mamba-ssm>=1.0.0
+
+# Optional: For better reproducibility and debugging
+tensorboard>=2.12.0
