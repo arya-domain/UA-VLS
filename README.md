@@ -378,4 +378,16 @@ If you use UA-VLS in your research, please cite:
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year={2026}
 }
+
+@misc{das2026uncertaintyawarevisionlanguagesegmentationmedical,
+      title={Uncertainty-Aware Vision-Language Segmentation for Medical Imaging}, 
+      author={Aryan Das and Tanishq Rachamalla and Koushik Biswas and Swalpa Kumar Roy and Vinay Kumar Verma},
+      year={2026},
+      eprint={2602.14498},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.14498}, 
+}
 ```
+
+
