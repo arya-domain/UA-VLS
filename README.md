@@ -1,4 +1,7 @@
-# UA-VLS: Uncertainty-Aware Vision-Language Segmentation for Medical Imaging [WACV 2026]
+
+# [UA-VLS: Uncertainty-Aware Vision-Language Segmentation for Medical Imaging](https://openaccess.thecvf.com/content/WACV2026/html/Das_Uncertainty-Aware_Vision-Language_Segmentation_for_Medical_Imaging_WACV_2026_paper.html) [WACV 2026]
+
+**Aryan Das\*, Tanishq Rachamalla\*, Koushik Biswas, [Swalpa Kumar Roy](https://swalpa.github.io), Vinay Kumar Verma**
 
 ![Model Architecture](assets/figure.png)
 
@@ -373,12 +376,13 @@ If you use UA-VLS in your research, please cite:
 
 ```bibtex
 @inproceedings{UAVLS2026,
-  title={Uncertainty-Aware Vision-Language Segmentation for Medical Imaging},
-  author={Aryan Das, Tanishq Rachamalla, Koushik Biswas, Swalpa Kumar Roy, Vinay Kumar Verma},
-  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  year={2026}
+    author    = {Das, Aryan and Rachamalla, Tanishq and Biswas, Koushik and Roy, Swalpa Kumar and Verma, Vinay Kumar},
+    title     = {Uncertainty-Aware Vision-Language Segmentation for Medical Imaging},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {8490-8499}
 }
 
 ```
-
 
