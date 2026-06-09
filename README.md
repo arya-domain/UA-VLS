@@ -1,7 +1,7 @@
 
 # [UA-VLS: Uncertainty-Aware Vision-Language Segmentation for Medical Imaging](https://openaccess.thecvf.com/content/WACV2026/html/Das_Uncertainty-Aware_Vision-Language_Segmentation_for_Medical_Imaging_WACV_2026_paper.html) [WACV 2026]
 
-**Aryan Das\*, Tanishq Rachamalla\*, Koushik Biswas, [Swalpa Kumar Roy](https://swalpa.github.io), Vinay Kumar Verma**
+**[Aryan Das](https://aryan-das.netlify.app/)\*, Tanishq Rachamalla\*, Koushik Biswas, [Swalpa Kumar Roy](https://swalpa.github.io), Vinay Kumar Verma**
 
 ![Model Architecture](assets/figure.png)
 
